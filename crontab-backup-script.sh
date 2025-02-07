@@ -11,7 +11,7 @@ DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 BACKUP_FILE="$BACKUP_DIR/crontab_backup_$DATE"
 
 # 最大备份数量
-MAX_BACKUPS=5
+MAX_BACKUPS=50
 
 # 检查备份目录是否存在，不存在则创建
 if [ ! -d "$BACKUP_DIR" ]; then
